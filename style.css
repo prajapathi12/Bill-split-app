@@ -1,0 +1,42 @@
+.container {
+    width: 500px;
+    margin: 125px auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 140px;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container input {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 14px;
+    width: 93.5%;
+}
+
+.container #discount {
+    margin-left: -226px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.container span {
+    margin-left: -223px;
+}
+
+.container button {
+    margin-left: 140px;
+    width: 200px;
+    background-color: hotpink;
+    color: black;
+    text-align: center;
+    padding: 11px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}

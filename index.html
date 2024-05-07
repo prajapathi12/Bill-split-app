@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill split app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bill Split App</h1>
+        <label for="itemsAmount">Items Amount: </label>
+        <input type="text" id="itemsAmount" placeholder="Enter the total amount of all food items">
+        <br><br>
+        <label for="noOfpersons">No.of people: </label>
+        <input type="text" id="noOfpersons" placeholder="Enter the number of persons">
+        <br>
+        <p id="cgst">CGST : </p>
+        <p id="sgst">SGST : </p>
+        <label for="afterTaxBill">Amount with GST: </label>
+        <input type="text" id="afterTaxBill" placeholder="Total amount including GST">
+        <br><br>
+        <input type="checkbox" id="discount" onclick="Discount()"><span>Get instant 5% off on your bill amount using UPI
+            payment method.</span>
+        <br><br>
+        <label for="splitAmount">Individual Amount: </label>
+        <input type="text" id="splitAmount" placeholder="Individual Amount">
+        <br><br>
+        <button id="btn" onclick="SplitBill()">Split the bill</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
